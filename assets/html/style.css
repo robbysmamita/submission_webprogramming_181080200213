@@ -1,0 +1,248 @@
+/* 
+Color pallete
+https://colorhunt.co/palette/105677
+
+#393232
+
+#4d4545
+
+#8d6262
+
+#ed8d8d
+
+*/
+
+
+/* Navbar */
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+nav {
+    background-color: #393232;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+/* END NAVBAR */
+
+/* ----------------------------------------------------- */
+
+/* main */
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 20px;
+    overflow: auto;
+}
+
+/* Endmain */
+/* 
+Pallet
+https://colorhunt.co/palette/1649
+*/
+
+/* section home */
+.card home {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    animation-fill-mode: inherit;
+}
+
+.section-home {
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+    /* border-radius: 5px; */
+    background-color: #f0f5f9;
+    padding: 1px;
+    margin-top: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: auto;
+}
+
+.section-home img {
+    background-image: none;
+}
+
+.section-home h1 {
+    color: #8d6262;
+    margin-left: 3cm;
+    font-family: sans-serif;
+    font-size: 36px;
+}
+
+.section-home h2 {
+    color: #8d6262;
+    font-weight: bold;
+    margin-left: 3cm;
+    font-size: 20px;
+}
+
+
+/*  
+.column-2 {
+    width: 100%;
+    min-height: 100vh;
+    background: #333;
+}
+*/
+
+/* .images {
+    perspective: 3000px;
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transform-style: preserve-3d;
+} */
+
+/* .images img {
+    transform: rotateX(50deg) rotateZ(-30deg) translate3d(-120px, 0px, 70px);
+    box-shadow: -80px 60px 15px 5px rgba(0, 0, 0, 0.4);
+    transition: all .4s;
+    transform-style: preserve-3d;
+}
+
+.images:hover img {
+    transform: rotateX(0deg) rotateZ(0deg) translate3d(0px, 0px, 0px);
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.0);
+} */
+
+/* end section home */
+
+/* ----------------------------------------------------- */
+.featured-image {
+    width: 100%;
+    max-height: 300px;
+}
+
+.profile-image {
+    width: 50%;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.center-title {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 35px;
+    color: #00a2c6;
+}
+
+.profile header {
+    text-align: left;
+}
+
+
+
+@font-face {
+    font-family: "RobbyFont";
+    src: url('assets/font/swis721.ttf');
+}
+
+
+.headsec {
+    color: #00a2c6;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+.heads {
+    font-family: "Roboto", sans-serif;
+}
+
+
+
+.jumbotron {
+    font-size: 20px;
+    padding: 60px;
+    background-color: #00c8eb;
+    text-align: center;
+    color: white;
+}
+
+
+
+header {
+    display: inline;
+}
+
+
+
+
+
+#content {
+    float: left;
+    width: 75%;
+}
+
+
+aside {
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    color: white;
+    background-color: #393232;
+    text-align: center;
+    font-weight: bold;
+}
+
+.pfoot {
+    font-family: "Roboto"sans-serif;
+}
+
+/* end footer */
