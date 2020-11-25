@@ -58,7 +58,7 @@ Framework
 Access This Website
 *******************
     ``localhost/(name_file)/(controller)/(method)``
-	``localhost/ubmission_webprogramming_181080200213/home/index``
+	``localhost/submission_webprogramming_181080200213/home/index``
 	
 *******************
 Access HTML FILE & CSS
