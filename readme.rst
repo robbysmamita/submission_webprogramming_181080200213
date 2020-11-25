@@ -33,7 +33,7 @@ Select Directory install ``C://xampp/htdocs``
 
 use `git clone <https://git-scm.com/docs/git-clone>`_ to install
 
-``git clone https://github.com/robbysmamita/kafeins-tempsci.git``
+``git clone https://github.com/robbysmamita/submission_webprogramming_181080200213.git``
 
 ^^^^^^^^^^
 Using Download
@@ -58,6 +58,7 @@ Framework
 Access This Website
 *******************
     ``localhost/(name_file)/(controller)/(method)``
+    ``localhost/submission_webprogramming_181080200213/home``
 	``localhost/submission_webprogramming_181080200213/home/index``
 	
 *******************
